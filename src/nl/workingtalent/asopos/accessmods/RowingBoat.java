@@ -12,16 +12,6 @@ public class RowingBoat {
         RowingBoat other = new RowingBoat();
 
         other.type = "Zeiljacht :-)";
-
-        System.out.println(other.type);
-
-        Surfplank s = new KinderSurfplank();
-
-        final int myAge = 51;
     }
 }
 
-
-abstract class Surfplank {
-
-}
