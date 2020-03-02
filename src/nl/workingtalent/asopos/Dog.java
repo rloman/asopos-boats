@@ -1,6 +1,6 @@
 package nl.workingtalent.asopos;
 
-class Dog {
+public class Dog {
 
     private String name;
 
