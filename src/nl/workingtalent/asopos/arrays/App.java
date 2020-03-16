@@ -1,5 +1,9 @@
 package nl.workingtalent.asopos.arrays;
 
+import nl.workingtalent.asopos.Dog;
+
+import java.util.Arrays;
+
 public class App {
 
     public static void main(String[] args) {
@@ -43,6 +47,16 @@ public class App {
         System.out.println(numbersAltTwo);
 
 
+        // example regarding chapter 4.3.7
+        Dog d1 = new Dog("Wodan");
+        Object[] dogs = new Dog[]{d1};
+
+        String prettyPrint = Arrays.toString(numbers);
+
+        System.out.println(prettyPrint);
+
+
+        System.out.println(Arrays.deepToString(kube));
 
     }
 }
