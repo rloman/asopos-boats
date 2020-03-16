@@ -17,10 +17,10 @@ public class App {
         Dog d = new Dog();
 
 
-        String s = d + 3;
+//        String s = d + 3;// vout
 
 
-        boolean b = true + false;
+//        boolean b = true + false; // vout
 
 
     }
