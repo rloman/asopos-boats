@@ -2,12 +2,17 @@ package nl.workingtalent.asopos;
 
 public class Dog {
 
-    private String name;
+    private final String name;
 
-    int age;
+    private int age;
 
     public Dog() {
         super();
+        this.name = "onbekend";
+    }
+
+    public Dog(String name) {
+        this.name = name;
     }
 
     public String getName() {
